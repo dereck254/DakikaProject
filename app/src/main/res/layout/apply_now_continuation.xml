@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/apply_now_cont"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#210371" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:background="#5F37C8" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tabLayout" >
+            </androidx.viewpager.widget.ViewPager>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Details"
+                android:textStyle="bold"
+                android:layout_marginTop="80dp"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Marital Status"
+                android:layout_marginTop="120dp"/>
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="140dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="185dp"
+                android:text="Your Occupation Status"
+                android:textSize="15sp" />
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="210dp"/>
+            <TextView
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Residential Status"
+                android:layout_marginTop="260dp"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="285dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="280dp"
+                android:id="@+id/residential"
+                android:layout_width="350dp"
+                android:layout_height="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="385dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:text="First Emergency Contact"/>
+            <EditText
+                android:hint=""
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="466dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="205dp"
+                android:id="@+id/occupationspinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp"/>
+            <TextView
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="508dp"
+                android:layout_marginLeft="20dp"
+                android:text="Second Emergency Contact"/>
+            <EditText
+                android:hint="Emergency Contact's Name"
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="524dp"
+                android:layout_marginLeft="20dp"/>
+            <EditText
+                android:hint=""
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="556dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:id="@+id/firstcontactSpinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="559dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:id="@+id/secondcontactSpinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="464dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:text="Your Pay Day"
+                android:layout_marginTop="605dp"/>
+            <EditText
+                android:hint=""
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="626dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:id="@+id/maritalspinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="135dp"
+                android:layout_marginLeft="20dp"/>
+            <EditText
+                android:hint="Emergency Contact's Name"
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="416dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:layout_marginTop="623dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/paydaySpinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="330dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Personal Email(Opptional)"
+                android:textSize="15sp"/>
+            <EditText
+                android:layout_marginTop="355dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:width="200dp"/>
+            <Button
+                android:background="@color/white"
+                android:id="@+id/next_button"
+                android:layout_marginLeft="172dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:layout_marginTop="690dp"
+                android:layout_marginBottom="0dp"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="Submit"/>
+            <Button
+                android:background="@color/white"
+                android:id="@+id/backbutton"
+                android:layout_marginLeft="20dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:layout_marginTop="690dp"
+                android:layout_marginBottom="0dp"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Back"/>
+
+        </RelativeLayout>
+        <com.google.android.material.navigation.NavigationView
+            app:itemIconSize="18sp"
+            app:itemTextColor="#0C0C0C"
+            android:id="@+id/navigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#0770C3"
+            app:menu="@menu/menu_navigation" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>

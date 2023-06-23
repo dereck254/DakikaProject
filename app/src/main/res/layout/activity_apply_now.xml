@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ApplyNowActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#210371" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:background="#5F37C8" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tabLayout" >
+            </androidx.viewpager.widget.ViewPager>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Details"
+                android:textStyle="bold"
+                android:layout_marginTop="80dp"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Legal Name"
+                android:layout_marginTop="120dp"/>
+            <EditText
+                android:id="@+id/first_name_edittext"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="140dp"/>
+            <TextView
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Legal Name"
+                android:layout_marginTop="185dp"/>
+            <EditText
+                android:id="@+id/last_name_edittext"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="210dp"/>
+            <TextView
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:layout_marginTop="260dp"/>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="285dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="280dp"
+                android:id="@+id/genderSpinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="465dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:text="Your Highest level of Education"/>
+            <EditText
+                android:hint=""
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="486dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="493dp"
+                android:id="@+id/educationSpinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp"/>
+            <TextView
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="540dp"
+                android:layout_marginLeft="20dp"
+                android:text="Your Monthly Income Range"/>
+            <EditText
+                android:hint=""
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="556dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:id="@+id/monthlyincomeSpinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="559dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:text="Do you have any out standing loans?"
+                android:layout_marginTop="605dp"/>
+            <EditText
+                android:hint=""
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="626dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:id="@+id/outstandingloanSpinner"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="635dp"
+                android:layout_marginLeft="20dp"/>
+            <EditText
+                android:hint=""
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="416dp"
+                android:layout_marginLeft="20dp"/>
+            <Spinner
+                android:layout_marginTop="415dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/daySpinner"
+                android:layout_width="90dp"
+                android:layout_height="35dp" />
+            <Spinner
+                android:layout_marginTop="415dp"
+                android:layout_marginLeft="120dp"
+                android:id="@+id/monthSpinner"
+                android:layout_width="115dp"
+                android:layout_height="35dp" />
+            <Spinner
+                android:layout_marginTop="415dp"
+                android:layout_marginLeft="245dp"
+                android:id="@+id/yearSpinner"
+                android:layout_width="100dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+                android:textSize="15sp"
+                android:layout_marginTop="395dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="325dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="National ID"
+                android:textSize="15sp"/>
+            <EditText
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:width="200dp"/>
+            <Button
+                android:id="@+id/next_button"
+                android:layout_centerHorizontal="true"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:layout_marginTop="690dp"
+                android:layout_marginBottom="0dp"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:text="NEXT"/>
+        </RelativeLayout>
+        <com.google.android.material.navigation.NavigationView
+            app:itemIconSize="18sp"
+            app:itemTextColor="#0C0C0C"
+            android:id="@+id/navigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#0770C3"
+            app:menu="@menu/menu_navigation" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+    </RelativeLayout>
+
+

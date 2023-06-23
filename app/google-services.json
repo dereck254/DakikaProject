@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1021187184883",
+    "firebase_url": "https://dakika-loan-app-default-rtdb.firebaseio.com",
+    "project_id": "dakika-loan-app",
+    "storage_bucket": "dakika-loan-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021187184883:android:6bdfee0aae33bf97f9bf86",
+        "android_client_info": {
+          "package_name": "com.elon.dakikaloanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021187184883-qghaddglvcrt8b8rq12gcbe7k8p7el9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFQ7l6q9I6KNJq89d7i7VB2SPN52Jfd1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021187184883-hq0bj9337kp72kbo2sqli5ivr5a488gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

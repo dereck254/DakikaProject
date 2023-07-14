@@ -1,0 +1,112 @@
+<!-- activity_my_loan.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvLoanDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loan Details"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Loan Amount GridLayout -->
+    <GridLayout
+        android:id="@+id/gridLoanAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLoanDetails"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loan Amount:" />
+
+        <Spinner
+            android:id="@+id/spLoanAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/loan_amounts" />
+
+    </GridLayout>
+
+    <!-- Repay Term GridLayout -->
+    <GridLayout
+        android:id="@+id/gridRepayTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridLoanAmount"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repay Term:" />
+
+        <Spinner
+            android:id="@+id/spRepayTerm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/repay_terms" />
+
+    </GridLayout>
+
+    <!-- Voucher GridLayout -->
+    <GridLayout
+        android:id="@+id/gridVoucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridRepayTerm"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voucher:" />
+
+        <Spinner
+            android:id="@+id/spVoucher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/voucher_options" />
+
+    </GridLayout>
+
+    <!-- Loan Purpose -->
+    <TextView
+        android:id="@+id/tvLoanPurpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridVoucher"
+        android:text="Loan Purpose"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spLoanPurpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLoanPurpose"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/loan_purposes" />
+
+
+    <Button
+        android:id="@+id/btnApplyNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Now"
+        android:layout_below="@id/spLoanPurpose"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

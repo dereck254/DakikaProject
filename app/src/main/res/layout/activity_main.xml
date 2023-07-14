@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="#034D6E"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Dakika Loan"
+        android:textColor="#C51212"
+        android:textSize="44dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon_dakika"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="237dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="90dp"
+        android:text="Instant Loans to your M-Pesa"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/loginviaemailbtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:gravity="center_horizontal"
+        android:text="Login Via E-mail"
+        android:textColor="#0AAC11"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="326dp"
+        tools:text="Login Via Email" />
+
+    <Button
+        android:id="@+id/loginviagooglebtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:gravity="center_horizontal"
+        android:text="Login Via Google"
+        android:textColor="#0AAC11"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="255dp"
+        tools:text="Login Via Google" />
+
+    <TextView
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="440dp"
+        android:id="@+id/mtvreg"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Register Here."
+        android:textColor="#2196F3"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="440dp"
+        android:id="@+id/textView3"
+        android:layout_width="146dp"
+        android:layout_height="50dp"
+        android:text="Not Registered?"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply in seconds and get approved immediately."
+        android:textColor="#FF9800"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+
+</RelativeLayout>

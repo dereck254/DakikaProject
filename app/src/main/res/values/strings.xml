@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Dakika Loan</string>
+    <string name="navigation_drawer_open">Open Navigation</string>
+    <string name="navigation_drawer_close">Close Navigation</string>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="education_options">
+        <item>Primary School and Below</item>
+        <item>High School</item>
+        <item>Certificate</item>
+        <item>Diploma</item>
+        <item>Graduate</item>
+        <item>Post Graduate/Professional</item>
+    </string-array>
+
+    <string-array name="outstanding_loan">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="monthly_income">
+        <item>Below 5,000</item>
+        <item>5,001 - 10,000</item>
+        <item>10,001 - 50,000</item>
+        <item>15,001 - 20,000</item>
+        <item>20,001 - 30,000</item>
+        <item>Above 30,001</item>
+    </string-array>
+
+    <string-array name="marital_options">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="employment_options">
+        <item>Perman</item>
+        <item>Private Practice</item>
+        <item>Self_Employed</item>
+        <item>Contract</item>
+        <item>Part-Time</item>
+        <item>Unemployed</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="residential_options">
+        <item>Rented</item>
+        <item>Owned</item>
+        <item>Living with Parents</item>
+        <item>Mortgaged</item>
+        <item>Employer Provided</item>
+        <item>Other</item>
+    </string-array>
+    <string name="payment_procedure">To pay your loan via M-Pesa, follow these steps:\n\n1. Go to your M-Pesa menu on your phone.\n2. Select \'Lipa na M-Pesa\' (Pay with M-Pesa).\n3. Choose \'Buy Goods and ServicesOption\'.\n4. Enter the Till Number: 8187874.\n5. Enter the loan amount you wish to pay.\n6. Enter your M-Pesa PIN.\n7. Confirm the transaction details.\n8. Wait for the payment confirmation.\n\nYour loan payment will be processed shortly.</string>
+    <!-- Add other string resources here if needed -->
+    <string-array name="loan_purposes">
+        <item>Education</item>
+        <item>Medical</item>
+        <item>Rent</item>
+        <item>Goods</item>
+        <item>Emergency</item>
+        <item>Travel</item>
+        <item>Events</item>
+        <item>Household</item>
+        <item>Other</item>
+        <!-- Add more loan purposes as needed -->
+    </string-array>
+    <string-array name="loan_amounts">
+        <item>KES 1,000</item>
+        <item>KES 2,000</item>
+        <item>KES 3,000</item>
+        <item>KES 4,000</item>
+        <item>KES 5,000</item>
+        <!-- Add more loan amounts as needed -->
+    </string-array>
+    <string-array name="repay_terms">
+        <item>7 days</item>
+        <item>14 days</item>
+        <item>21 days</item>
+        <item>1 month</item>
+        <item>2 months</item>
+        <item>3 months</item>
+        <!-- Add more repay terms as needed -->
+    </string-array>
+    <string-array name="voucher_options">
+        <item>No available voucher</item>
+        <item>Voucher 1</item>
+        <item>Voucher 2</item>
+        <!-- Add more voucher options as needed -->
+    </string-array>
+
+</resources>
